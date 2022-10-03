@@ -464,7 +464,7 @@ and (max-width: 1200px) {
 @media (min-width: 1200px)
 and (max-width: 1800px) {
     body {
-        background-color: red;
+        background-color: white;
         color: black;
     }
     .media-query {
