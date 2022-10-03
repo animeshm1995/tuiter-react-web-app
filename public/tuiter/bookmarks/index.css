@@ -150,3 +150,10 @@ li a {
     font-size: 15px;
     color: rgb(110, 118, 125);
 }
+
+img.wd-dot-image-right {
+    float: right;
+    height: 30px;
+    width: 40px;
+    margin-right: 16px;
+}

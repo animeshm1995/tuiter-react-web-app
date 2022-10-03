@@ -116,3 +116,10 @@ img.wd-image-right {
     margin-right: 16px;
     border-radius: 10px;
 }
+
+img.wd-dot-image-right {
+    float: right;
+    height: 30px;
+    width: 40px;
+    margin-right: 20px;
+}
