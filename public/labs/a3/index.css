@@ -461,6 +461,17 @@ and (max-width: 1200px) {
         color: black;
     }
 }
+@media (min-width: 1200px)
+and (max-width: 1800px) {
+    body {
+        background-color: red;
+        color: black;
+    }
+    .media-query {
+        background-color: blue;
+        color: white;
+    }
+}
 
 
 
