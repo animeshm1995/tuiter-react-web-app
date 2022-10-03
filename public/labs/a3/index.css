@@ -213,6 +213,12 @@ p#id-selector-2 {
     background-color: red;
     color: white;
 }
+.rotate-list-counter-clock {
+    transform: rotate(-12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
 
 .rotate-list-items li {
     width: 100px;
@@ -234,6 +240,10 @@ p#id-selector-2 {
 
 .rotate-image {
     transform: rotate(-10deg);
+}
+
+.rotate-image-counter-clock {
+    transform: rotate(10deg);
 }
 .rotate-table {
     position: relative;
@@ -259,11 +269,42 @@ p#id-selector-2 {
     width: 200px;
     height: 200px;
 }
+
+.gradients-linear-blue-green {
+    background: linear-gradient(blue, green);
+    width: 200px;
+    height: 200px;
+}
 .gradients-radial {
     background: radial-gradient(yellow, green);
     width: 200px;
     height: 200px;
 }
+.gradients-radial-blue-red {
+    background: radial-gradient(blue, red);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-positioned {
+    background:
+            radial-gradient(
+                    at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.gradients-positioned-yellow-green {
+    background:
+            radial-gradient(
+                    at top left, yellow, green);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+
 .animation-keyframes {
     position: relative;
     top: 0px;
@@ -273,6 +314,19 @@ p#id-selector-2 {
     height: 200px;
     background-color: red;
     color: white;
+}
+
+.background-change-red-yellow{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: background-change;
+    animation-duration: 4s;
+}
+
+@keyframes background-change {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }
 
 @keyframes slidein {
