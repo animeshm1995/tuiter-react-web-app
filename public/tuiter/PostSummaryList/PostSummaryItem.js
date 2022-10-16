@@ -1,6 +1,6 @@
 const PostSummaryItem = (post) => {
     return(`
-            <div class="flex-container-stretch">
+            <div class="list-group-item">
                 <div class="wd-grid-col-full-page mt-1 mb-2 ms-0 me-2">
                     <img class="wd-image-right" src="${post.image}">
                     <span class="wd-topic">${post.topic}</span><br/>
