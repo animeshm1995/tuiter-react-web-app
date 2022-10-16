@@ -21,16 +21,16 @@ const PostItem = (post) => {
                     </div>
                     <div class = "row wd-post-actions mb-3 mt-2">
                         <div class = "col-3">
-                            <a href = "#" class = "wd-action"><i class="fa fa-comment me-2"></i>${post.commentCount}</a>
+                            <a href = "#" class = "wd-action"><i class="fa-regular fa-comment me-2"></i>${post.commentCount}</a>
                         </div>
                         <div class = "col-3">
                             <a href = "#" class = "wd-action"><i class="fa fa-retweet me-2"></i>${post.retuitCount}</a>
                         </div>
                         <div class = "col-3">
-                            <a href = "#" class = "wd-action"><i class="fa fa-heart me-2"></i>${post.likeCount}</a>
+                            <a href = "#" class = "wd-action"><i class="fa-regular fa-heart me-2"></i>${post.likeCount}</a>
                         </div>
                         <div class = "col-3">
-                            <a href = "#" class = "wd-action"><i class="fa fa-upload me-2"></i></a>
+                            <a href = "#" class = "wd-action"><i class="fa-solid fa-arrow-up-from-bracket me-2"></i></a>
                         </div>
                     </div>
                 </div>
