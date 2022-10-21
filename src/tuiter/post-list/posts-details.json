@@ -1,0 +1,46 @@
+[
+  {
+    "_id" : 1234,
+    "isRetuit": true,
+    "retuitUserName": "Elon Musk",
+    "avatarIcon": "spacex-icon.png",
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "time": "23h",
+    "header": "Dennis and Akiko Tito are the first two crewmembers on Starship's second commercial spaceflight around the moon",
+    "headerPostLink": "spacex.com/updates",
+    "image": "dennis-akiko-tito.png",
+    "postContent": {
+      "avatarIcon": "",
+      "userName": "",
+      "handle": "",
+      "time": "",
+      "header": "",
+      "headerPostLink": ""
+    },
+    "commentCount": "4.2K",
+    "retuitCount": "3.5K",
+    "likeCount": "37.5K"
+  },
+  {
+    "_id" : 2345,
+    "avatarIcon": "spacex-icon.png",
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "time": "23h",
+    "header": "We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
+    "headerPostLink": "",
+    "image": "",
+    "postContent": {
+      "avatarIcon": "spacex-icon.png",
+      "userName": "SpaceX",
+      "handle": "SpaceX",
+      "time": "23h",
+      "header": "Starlink for RVs now has over 100,00 customers! Access high-speed, low-latency internet on an as-needed basis anywhere Starlink provides active coverage",
+      "headerPostLink": "starlink.com/rv"
+    },
+    "commentCount": "4.2K",
+    "retuitCount": "3.5K",
+    "likeCount": "37.5K"
+  }
+]
