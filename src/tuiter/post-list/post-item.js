@@ -27,7 +27,7 @@ const PostItem = (
                     <img className="rounded-circle" height={48} width={48} src={`/images/${post.avatarIcon}`}/>
                 </div>
                 <div className="col-11">
-                    {post.isRetuit && <div className="wd-retuited-username ms-2">{post.retuitUserName} Retweeted</div>}
+                    {post.isRetuit && <div className="wd-retuited-username ms-2">{post.retuitUserName} Retuited</div>}
                     <div><span className="fw-bolder ms-2">{post.userName}</span>
                         <i className="fa-solid fa-check-circle ms-1 me-1"></i>
                         <span className="wd-handle">@{post.handle}</span><i className="bi bi-dot"></i>
