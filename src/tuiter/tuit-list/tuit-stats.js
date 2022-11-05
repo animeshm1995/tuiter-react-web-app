@@ -22,25 +22,25 @@ const TuitStats = (
         <>
             <div className="col-3">
                 <a href="#" className="wd-action">
-                    <i className="fa-regular fa-comment me-2"></i>{tuit.replies}</a>
+                    <i className="bi bi-chat me-2"></i>{tuit.replies}</a>
             </div>
             <div className="col-3">
-                <a href="#" className="wd-action"><i className="fa fa-retweet me-2"></i>{tuit.retuits}
+                <a href="#" className="wd-action"><i className="bi bi-arrow-repeat me-2"></i>{tuit.retuits}
                 </a>
             </div>
             <div className="col-3">
                 <a href="#" className="wd-action">
                     {
-                        tuit.liked && <i className="fa-solid fa-heart me-2 text-danger"></i>
+                        tuit.liked && <i className="bi bi-heart-fill me-2 text-danger"></i>
                     }
                     {
-                        !tuit.liked && <i className="fa-regular fa-heart me-2"></i>
+                        !tuit.liked && <i className="bi bi-heart me-2"></i>
                     }
                     {tuit.likes}
                 </a>
             </div>
             <div className="col-3">
-                <a href="#" className="wd-action"><i className="fa-solid fa-arrow-up-from-bracket me-2"></i></a>
+                <a href="#" className="wd-action"><i className="bi bi-share me-2"></i></a>
             </div>
         </>
     );
