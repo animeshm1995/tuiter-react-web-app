@@ -5,7 +5,7 @@ const ExploreComponent = () => {
     return(
         <>
             <div className="row mt-2">
-                <div className="col-10 col-lg-8 col-xl-7">
+                <div>
                     <div className="row">
                         <div className="col-11 position-relative">
                             <input placeholder="Search Tuiter"
@@ -35,9 +35,6 @@ const ExploreComponent = () => {
                             SpaceX Starship</h1>
                     </div>
                     <PostSummaryList/>
-                </div>
-                <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-5">
-                    <WhoToFollowList/>
                 </div>
             </div>
 
